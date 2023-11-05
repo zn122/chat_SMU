@@ -1,0 +1,7 @@
+Date,Time,Speaker,Text,Emotion1,Emotion2,Emotion3,Intensity,Intensity2,Strategy1,Strategy2,Strategy3
+2023-11-05,13h 36m,usr,hi,,,,,,,,,
+2023-11-05,13h 36m,sys,"hi, how are you?",neutral,anxiety,sadness,1,2,Others,Question,Reflection of feelings
+2023-11-05,13h 36m,usr,i'm so sad,,,,,,,,,
+2023-11-05,13h 36m,sys,what's going on?,sadness,depression,neutral,5,4,Others,Question,Reflection of feelings
+2023-11-05,13h 45m,usr,hihi,,,,,,,,,
+2023-11-05,13h 45m,sys,hello! how are you doing?,neutral,anxiety,depression,1,2,Question,Others,Reflection of feelings
