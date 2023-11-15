@@ -65,7 +65,7 @@ conda activate cuda
 ```
 or 
 
-in CoLAB
+#### In CoLAB
 
 `chatbot_train & run.ipynb` You must run the cells in the this ipynb file to set Python == 3.7, torch == 1.7.1, and transformers == 4.9.2.
 
@@ -76,11 +76,10 @@ You can check the model used in the `Blenderbot_small-90M` folder.
 [previous]
 
 [BlenderBot-small](https://huggingface.co/facebook/blenderbot_small-90M)
-
 If you would like to evaluate generated results with Embedding-based similarity, you can download my prepared embedding files from [here](https://1drv.ms/f/s!Aky8v8NZbQx1qj7OlJKcQEJ6qrWm).
 
 ## Preprocessing &  Training 
-Execute code `!python prepare.py`, `!python train.py in file` in `chatbot_train & run.ipynb` 
+`!python prepare.py`, `!python train.py in file` in `chatbot_train & run.ipynb` 
 
 ## Inference with Your Model
 every 10,20,30,40,50 epochs of model training will create a new folder in `DATA/{inputter_name}.{config_name}`, which is named after the time when the training starts. 
