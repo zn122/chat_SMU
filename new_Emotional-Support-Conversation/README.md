@@ -64,13 +64,19 @@ conda env create -f env.yml -n cuda
 conda activate cuda
 ```
 or 
+
 in CoLAB
+
 `chatbot_train & run.ipynb` You must run the cells in the this ipynb file to set Python == 3.7, torch == 1.7.1, and transformers == 4.9.2.
 
 ## Model
 You can check the model used in the `Blenderbot_small-90M` folder.
+
+
 [previous]
-[BlenderBot-small](https://huggingface.co/facebook/blenderbot_small-90M) .
+
+[BlenderBot-small](https://huggingface.co/facebook/blenderbot_small-90M)
+
 If you would like to evaluate generated results with Embedding-based similarity, you can download my prepared embedding files from [here](https://1drv.ms/f/s!Aky8v8NZbQx1qj7OlJKcQEJ6qrWm).
 
 ## Preprocessing &  Training 
