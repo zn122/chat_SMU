@@ -1,11 +1,10 @@
 # Emotional-Support-Conversation
-
+https://github.com/ChaeheePark/XAI-Emotionally-Supportive-Conversations
 https://github.com/thu-coai/Emotional-Support-Conversation
 
 ### *Copyright © 2021 CoAI Group, Tsinghua University. All rights reserved. Data and codes are for academic research use only.*
 
 Data and codes for the ACL 2021 paper: [**Towards Emotional Support Dialog Systems**](https://arxiv.org/abs/2106.01144)
-
 If you use our codes or your research is related to our paper, please kindly cite our paper:
 
 ```bib
@@ -64,29 +63,19 @@ anger, anxiety, depression, disgust, fear, guilt, jealousy, nervousness, pain, s
 conda env create -f env.yml -n cuda
 conda activate cuda
 ```
+or 
+in CoLAB
+`chatbot_train & run.ipynb` You must run the cells in the this ipynb file to set Python == 3.7, torch == 1.7.1, and transformers == 4.9.2.
 
-## Downloading Model
-
-You should first download the [BlenderBot-small](https://huggingface.co/facebook/blenderbot_small-90M) model and replace the fake `pytorch_model.bin` file in `Blenderbot_small-90M` with the true one.
-
+## Model
+You can check the model used in the `Blenderbot_small-90M` folder.
+[previous]
+[BlenderBot-small](https://huggingface.co/facebook/blenderbot_small-90M) .
 If you would like to evaluate generated results with Embedding-based similarity, you can download my prepared embedding files from [here](https://1drv.ms/f/s!Aky8v8NZbQx1qj7OlJKcQEJ6qrWm).
 
-## Preprocessing Training Data
-
-Run `bash RUN/prepare_strat_emotion.sh` to preprocess the training data.
-
-## Training Your Model
-
-Run `bash RUN/train_strat_emotion.sh` to train your model.
+## Preprocessing &  Training 
+Execute code `!python prepare.py`, `!python train.py in file` in `chatbot_train & run.ipynb` 
 
 ## Inference with Your Model
+every 10,20,30,40,50 epochs of model training will create a new folder in `DATA/{inputter_name}.{config_name}`, which is named after the time when the training starts. 
 
-Every time of model training will create a new folder in `DATA/{inputter_name}.{config_name}`, which is named after the time when the training starts. You should select a checkpoint (it may be based on the PPL of validation), and replace the checkpoint path in `RUN/infer_strat_emotion.sh --load_checkpoint` with the path of your selected checkpoint.
-
-Then, run `bash RUN/infer_strat_emotion.sh` to do the inference.
-
-**Note**: When you run `infer_strat_emotion.sh`, you can change `GOLDEN_TRUTH` in  `inputters/PARAMS.py` to control whether use the golden strategy during inference.
-
-## Interacting with Your Model
-
-Similar to inference, after designating the checkpoint in `RUN/interact_strat_emotion.sh- -load_checkpoint`, run `bash RUN/interact_strat_emotion.sh`.
