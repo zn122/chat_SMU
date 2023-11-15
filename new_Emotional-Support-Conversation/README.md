@@ -1,4 +1,4 @@
-# Emotional-Support-Conversation
+# new_Emotional-Support-Conversation
 https://github.com/ChaeheePark/XAI-Emotionally-Supportive-Conversations
 
 https://github.com/thu-coai/Emotional-Support-Conversation
