@@ -10,6 +10,6 @@ To this end, we introduce a single neural network-based generative model, called
 
 we propose a **single neural network-based generative model** which can explain the rationale for the generated emotionally supportive responses.
 
-수정해야함 >>*Details can be found in our paper (with the title above) accepted for publication at KOSES Autumn Confenrence 2022. The PDF is available [here](https://drive.google.com/file/d/15Q02Gsxfv0eDoLHcsyffxQ0fhC9klhR-/view?usp=sharing).*
+*Details can be found in our paper (with the title above) accepted for publication at ICES 2023. The PDF is available [here]([https://drive.google.com/file/d/15Q02Gsxfv0eDoLHcsyffxQ0fhC9klhR-/view?usp=sharing](https://drive.google.com/file/d/1W_a_tQrHXOVmadTCzKiv2-ljjtYhCKAD/view?usp=sharing)https://drive.google.com/file/d/1W_a_tQrHXOVmadTCzKiv2-ljjtYhCKAD/view?usp=sharing).*
 
 ## 한국어 부분 추가
