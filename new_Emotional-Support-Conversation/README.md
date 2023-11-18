@@ -74,7 +74,7 @@ or
 You can check the model used in the `Blenderbot_small-90M` folder.
 
 
-[previous]
+(previous)
 
 [BlenderBot-small](https://huggingface.co/facebook/blenderbot_small-90M)
 If you would like to evaluate generated results with Embedding-based similarity, you can download my prepared embedding files from [here](https://1drv.ms/f/s!Aky8v8NZbQx1qj7OlJKcQEJ6qrWm).
