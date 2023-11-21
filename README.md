@@ -23,3 +23,6 @@ An emotional dictionary was used to extract keywords from Korean sentences. Base
 When the keyword was extracted from the sentence and then the keyword was projected on the ellipse, we could find the ellipse center distance for each emotion. Using this, it was possible to predict emotions, and after using the difference in probability between top1 emotion and top2 emotion according to the probability value, a 10-point scale could be used to build an integrity area. 
 
 Because emotions were predicted through limited resources and simple distance calculations, there were many shortcomings, and in fact, the results were not good compared to KOBERT, a model that was widely distributed in the past. However, I think this study produced the result of extracting words with high emotional influence within the sentence and was a significant process of suggesting intelligence through the confidence of predicted emotions.
+
+*Details can be found in our paper (with the title above) accepted for publication at ICES 2023. The PDF is available [here](https://drive.google.com/file/d/1hvabNBjwJsIH3XlQnNggeFFy7M1RxwCC/view?usp=sharing).*
+
