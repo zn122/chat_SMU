@@ -1,4 +1,4 @@
-#아연수정
+#수정
 import json
 import random
 import csv
