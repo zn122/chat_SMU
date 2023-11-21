@@ -1,5 +1,6 @@
-# Towards the Self-Disclosing Generative Model Capable of Explaining the Rationale on Emotionally Supportive Response 
-## new_Emotional-Support-Conversation
+# Development of a deep learning model for generating explainable and emotionally supportive conversations for mental health self-care
+
+## [2023_ICES]Towards the Self-Disclosing Generative Model Capable of Explaining the Rationale on Emotionally Supportive Response 
 
 by A-Yeon Kim1,+, You-Jin Roh1,+, Sae-Lim Jeong1, Se-Ik Park1, Eun-Seok Oh1 ,
 Hye-Jin Hong2, and Jee Hang Lee1,2,* (+These authors contributed equally; *Corresponding author)
@@ -12,4 +13,13 @@ we propose a **single neural network-based generative model** which can explain 
 
 *Details can be found in our paper (with the title above) accepted for publication at ICES 2023. The PDF is available [here](https://drive.google.com/file/d/1W_a_tQrHXOVmadTCzKiv2-ljjtYhCKAD/view?usp=sharing).*
 
-## 한국어 부분 추가
+## [2023_KIPS]On the Predictive Model for Emotion Intensity Improving the Efficacy of Emotionally Supportive Chat
+
+Sae-Lim Jeong1,+, You-Jin Roh1,+, Eun-Seok Oh1, A-Yeon Kim1, Hye-Jin Hong2, Jee Hang Lee3,*
+A representative emotional dimension model used in the engineering field is Russell's Circumplex model, which expresses emotions by considering two axes: Valence and Arousal. Since each emotion is expressed only as one point, there is a limitation that it is insufficient to express individual differences. In recent studies, the form of an ellipse in which each area of emotion can be expressed was adopted, and this was attempted to be realized. 
+
+An emotional dictionary was used to extract keywords from Korean sentences. Based on the absolute value of the value existing in the dictionary, the importance of words for each morpheme in terms of emotion was ranked. However, in the case of Korean, there are cases where it cannot be called a keyword when contextually grasped because there are many single-letter words when separated into morpheme, so in this case, fast-text was used to replace the keyword. 
+
+When the keyword was extracted from the sentence and then the keyword was projected on the ellipse, we could find the ellipse center distance for each emotion. Using this, it was possible to predict emotions, and after using the difference in probability between top1 emotion and top2 emotion according to the probability value, a 10-point scale could be used to build an integrity area. 
+
+Because emotions were predicted through limited resources and simple distance calculations, there were many shortcomings, and in fact, the results were not good compared to KOBERT, a model that was widely distributed in the past. However, I think this study produced the result of extracting words with high emotional influence within the sentence and was a significant process of suggesting intelligence through the confidence of predicted emotions.
