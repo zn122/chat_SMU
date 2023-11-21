@@ -94,13 +94,7 @@ for cnt in range(len(jcorp)): #
     
 
     ds.append(d)
-    #print(ds)
 
-# df = pd.DataFrame({ 'emotion':emotion_count,
-#                     'initial_intensity':initial_intensity_count,
-#                     'final_intensity':final_intensity_count,
-#                     'change_intensity':change_intensity})
-# df.to_csv('process_result.csv', index=False)
 
 # shuffle dataset
 random_seed = 42
