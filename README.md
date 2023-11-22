@@ -16,6 +16,7 @@ we propose a **single neural network-based generative model** which can explain 
 ## [2023_KIPS]On the Predictive Model for Emotion Intensity Improving the Efficacy of Emotionally Supportive Chat
 
 Sae-Lim Jeong1,+, You-Jin Roh1,+, Eun-Seok Oh1, A-Yeon Kim1, Hye-Jin Hong2, Jee Hang Lee3,*
+
 A representative emotional dimension model used in the engineering field is Russell's Circumplex model, which expresses emotions by considering two axes: Valence and Arousal. Since each emotion is expressed only as one point, there is a limitation that it is insufficient to express individual differences. In recent studies, the form of an ellipse in which each area of emotion can be expressed was adopted, and this was attempted to be realized. 
 
 An emotional dictionary was used to extract keywords from Korean sentences. Based on the absolute value of the value existing in the dictionary, the importance of words for each morpheme in terms of emotion was ranked. However, in the case of Korean, there are cases where it cannot be called a keyword when contextually grasped because there are many single-letter words when separated into morpheme, so in this case, fast-text was used to replace the keyword. 
