@@ -24,5 +24,5 @@ When the keyword was extracted from the sentence and then the keyword was projec
 
 Because emotions were predicted through limited resources and simple distance calculations, there were many shortcomings, and in fact, the results were not good compared to KOBERT, a model that was widely distributed in the past. However, I think this study produced the result of extracting words with high emotional influence within the sentence and was a significant process of suggesting intelligence through the confidence of predicted emotions.
 
-*Details can be found in our paper (with the title above) accepted for publication at ICES 2023. The PDF is available [here](https://drive.google.com/file/d/1hvabNBjwJsIH3XlQnNggeFFy7M1RxwCC/view?usp=sharing).*
+*Details can be found in our paper (with the title above) accepted for publication at KIPS 2023. The PDF is available [here](https://drive.google.com/file/d/1hvabNBjwJsIH3XlQnNggeFFy7M1RxwCC/view?usp=sharing).*
 
